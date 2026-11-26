@@ -5,6 +5,9 @@ This module adds the required firmware for external wireless adapters to be used
 **NOTE:** Your cancunf kernel still needs to support external network adapters. This module only provides missing firmware, if any.
 
 #### Changelog
+* v3.1
+    - Fixed USB arsenal minors at boot (/dev/hidg0)
+
 * v3.0.1
     - Added files for MT7610u.
     - Fixed firmware path for cancunf
