@@ -1,23 +1,16 @@
-## Wireless Firmware for Nethunter
+## Wireless Firmware for Nethunter (cancunf)
 
-This Magisk module adds the required firmware for external wireless adapters to be used with Nethunter. Also, adds various functions to make cancunf function correctly with Kali Nethunter.
+This module adds the required firmware for external wireless adapters to be used with Nethunter. Also, adds various functions to make cancunf function correctly with Kali Nethunter.
 
-**NOTE:** Your kernel still needs to support external network adapters. This module only provides missing firmware, if any.
-
-The list of included firmware is given below.
-
-#### Supported chipsets:
-
-- **Ralink** - RT2501, RT2501USB, RT2561, RT2561S, RT2571W, RT2600, RT2661, RT2671, RT2760, RT2790, RT2860, RT2870, RT2890, RT3070, RT3071, RT3090, RT3290, RT5201, RT5600
-- **Realtek** - RTL8188* (EU/FTV), RTL8192* (CU/EU/DE/SE), RTL8821/12* (AE/AU/BU), RTL8822BU
-- **Atheros** - AR9170, AR7010
-- **Mediatek** - MT7601u
-- **Broadcom** - bcm43xx (not tested), BRCM4335, BRCM4339, BRCM4354
+**NOTE:** Your cancunf kernel still needs to support external network adapters. This module only provides missing firmware, if any.
 
 #### Changelog
+* v3.0.1
+    - Added files for MT7610u.
+    - Fixed firmware path for cancunf
 
-* v3
-    - Fork, by Æsir. Initial commits.
+* v3.0.0
+    - Fork, by Æsir. Initial commits
 
 * v2.0.4
     - Added files for RTL8812BU, RTL8822BU, BRCM4335, BRCM4339, BRCM4354
