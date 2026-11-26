@@ -124,7 +124,7 @@ REPLACE="
 print_modname() {
   ui_print "*******************************"
   ui_print "      NH Wireless Firmware     "
-  ui_print "            - rithvikvibhu     "
+  ui_print "     - rithvikvibhu, Æsir      "
   ui_print "*******************************"
 }
 

@@ -1,12 +1,10 @@
 ## Wireless Firmware for Nethunter
 
-This Magisk module adds the required firmware for external wireless adapters to be used with Nethunter.
+This Magisk module adds the required firmware for external wireless adapters to be used with Nethunter. Also, adds various functions to make cancunf function correctly with Kali Nethunter.
 
 **NOTE:** Your kernel still needs to support external network adapters. This module only provides missing firmware, if any.
 
-The list of included firmware is given below. For other devices, [create a new issue on GitHub  here.](https://github.com/rithvikvibhu/nh-magisk-wifi-firmware/issues)
-
-This module should work with any variant of Nethunter, but it was created to work with __Nali Kethunter__ (https://forum.xda-developers.com/android/software-hacking/nali-kethunter-modded-kernel-supported-t3770455) - another Magisk module by [@LazerL0rd](https://forum.xda-developers.com/member.php?u=7836278) which systemlessly installs Kali Nethunter.
+The list of included firmware is given below.
 
 #### Supported chipsets:
 
@@ -16,19 +14,10 @@ This module should work with any variant of Nethunter, but it was created to wor
 - **Mediatek** - MT7601u
 - **Broadcom** - bcm43xx (not tested), BRCM4335, BRCM4339, BRCM4354
 
-
-#### Supported adapters
-
-- TL-WN722N
-- AWUS036NEH
-- TE-W322U
-- TL-WN722N-V2
-- Netgear_WN111v2
-- TL-WN821Nv3
-- (and many more. Check if chipset is listed above.)
-
-
 #### Changelog
+
+* v3
+    - Fork, by Æsir. Initial commits.
 
 * v2.0.4
     - Added files for RTL8812BU, RTL8822BU, BRCM4335, BRCM4339, BRCM4354
@@ -67,5 +56,4 @@ This module should work with any variant of Nethunter, but it was created to wor
 
 
 **Source:** https://github.com/rithvikvibhu/nh-magisk-wifi-firmware
-**Issues / Request other firmware:** https://github.com/rithvikvibhu/nh-magisk-wifi-firmware/issues
 **Author:** [rithvikvibhu](https://github.com/rithvikvibhu) (https://github.com/rithvikvibhu)
